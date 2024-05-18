@@ -1,0 +1,329 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: monospace;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.section1{
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+nav{
+  padding: 40px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #B9FF66;
+  border-radius: 30px;
+  margin: 30px;
+}
+nav h1 i{
+   font-size: 35px;
+   display: inline-block;
+   rotate: 45deg;
+}
+nav h1{
+  font-size: 40px;
+}
+nav h4{
+  font-size: 30px;
+  font-weight: 500;
+}
+nav .part2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.part1{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+nav button{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-size: 30px;
+
+}
+
+
+
+
+.center{
+  padding: 70px 100px;
+  display: flex;
+  height: 80%;
+  width: 100%;
+  /* background-color: red;s */
+ justify-content: space-between;
+}
+.center-part1{
+  height: 100%;
+  width: 44%;
+  /* background-color: blueviolet; */
+
+}
+
+.center-part2{
+  height: 100%;
+  width: 56%;
+  /* background-color: tan ; */
+position: relative;
+}
+
+.center-part2 img{
+  width: 100vh;
+ position: absolute;
+ right: 0;
+ object-fit: cover;
+ }
+.center-part1 h1{
+  line-height:1.2;
+  font-size: 110px;
+  font-weight: 500;
+ margin-bottom: 40px;
+ font-family: monospace;
+}
+
+
+.center-part1 p{
+font-size: 30px;
+width: 90%;
+}
+
+
+.center-part1 button{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-size: 30px;
+  margin-top: 80px;
+  
+}
+
+
+
+.section1bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 120px;
+  margin-top: 200px;
+}
+
+.section1bottom img{
+  height: 100px;
+}
+ 
+.section2{
+  margin-top: 50px;
+}
+.section2 .services{
+  /* background-color: blueviolet; */
+  padding: 40px 120px;
+  display: flex;
+  align-items:  center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.services h3{
+ background-color: #B9FF66;
+ font-weight: 500;
+ padding: 10px 10px;
+ border-radius: 5px;
+ font-size: 60px;
+}
+.services p{
+  width:40%;
+  font-size: 25px;
+}
+
+
+
+
+
+
+.container{
+  min-height: 80%;
+  width: 100%;
+  padding: 40px 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.elem{
+  height: 400px;
+  width: 40%;
+  border: 2px solid black;
+  background-color: #F3F3F3; 
+  border-radius: 40px;
+  flex-shrink: 0;
+  box-shadow: 0px 15px 0px #B9FF66;
+  padding: 50px;
+display: flex;
+}
+.elem-part1{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.elem-part2{
+  height: 100%;
+  width: 50%;
+}
+.elem-part1 img{
+  height: 100%;
+}
+.elem h4{
+  font-size: 40px;
+}
+.elem h2{
+  font-size: 45px;
+  max-width: 300px;
+  background-color: #B9FF66;
+}
+.elem i{
+  background-color: #B9FF66;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+
+
+
+.section3{
+  display: flex;
+  margin-top: 200px;
+  background-color: #F3F3F3;
+   padding: 80px;
+   margin: 200px 100px;
+  border-radius: 30px;  
+  border: 2px solid black;
+  box-shadow: 0px 15px 0px #B9FF66;
+}
+.section3 h1{
+  line-height:1.2;
+  font-size: 110px;
+  font-weight: 500;
+ margin-bottom: 40px;
+ font-family: monospace;
+}
+.section3 p{
+  font-size: 30px;
+width: 90%;
+}
+
+.section3 button{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+
+
+.section4 .case-study{
+  /* background-color: blueviolet; */
+  padding: 40px 120px;
+  display: flex;
+  align-items:  center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.case-study h3{
+  background-color: #B9FF66;
+  font-weight: 500;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 60px;
+ }
+ .case-study p{
+  width:40%;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vl {
+  border-left: 2px solid #F3F3F3;;
+  height: 350px;
+
+}
+footer{
+padding: 4%;
+margin: 4%;
+border-radius:30px;
+border:2px solid black;
+background-color: #191A23;
+display:flex;
+justify-content:space-around;
+gap:30px;
+
+}
+footer p{
+  font-size: 30px;
+ color: #FFFFFF;
+ font-weight: 500;
+}
+
+.spare{
+  height: 50px;
+}
