@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#idk{
+  height: 100%;
+  width: 100%;
+background-color: rgb(88, 180, 211);
+overflow-x: hidden;
+}
+
+
+#idk h1{
+  font-size: 35vw;
+  font-weight: 3000;
+}
+#idk2{
+  height: 100%;
+  width: 100%; 
+}
